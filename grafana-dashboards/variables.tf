@@ -18,7 +18,7 @@ variable "dashboards" {
   description = "Install these dashboards"
   type        = list(any)
   default = [
-    "charon_cluster",
+    "charon_overview",
     "alpha_cluster"
   ]
 }

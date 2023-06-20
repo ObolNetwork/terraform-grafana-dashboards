@@ -19,7 +19,7 @@ variable "dashboards" {
   type        = list(any)
   default = [
     "charon_overview",
-    "alpha_cluster"
+    "alpha_cluster_observability"
   ]
 }
 

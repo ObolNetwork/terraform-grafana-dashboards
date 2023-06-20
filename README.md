@@ -2,7 +2,6 @@
 
 A set of Obol Grafana dashboards for Node Operators and anyone running charon clients
 
-`make` updates the `README.md` file based on Terraform changes.
 
 
 ## Usage

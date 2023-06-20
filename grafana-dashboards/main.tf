@@ -24,8 +24,8 @@ resource "grafana_dashboard" "dashboard" {
   config_json = templatefile(
     "${path.module}/dashboards/${each.key}.json",
     {
-      LOKI_DATASOURCE     = var.loki_datasource,
-      PROMETHEUS_DATASOURCE     = var.prometheus_datasource,
+      LOKI_DATASOURCE       = var.loki_datasource,
+      PROMETHEUS_DATASOURCE = var.prometheus_datasource,
     }
   )
 }

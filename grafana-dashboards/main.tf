@@ -11,7 +11,7 @@ locals {
   dashboard_set = toset(var.dashboards)
 }
 
-resource "grafana_folder" "env_folder" {
+resource "grafana_folder" "folder" {
   title = var.folder_name
 }
 

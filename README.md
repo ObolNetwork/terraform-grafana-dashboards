@@ -39,7 +39,7 @@ No modules.
 | Name | Type |
 |------|------|
 | [grafana_dashboard.dashboard](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/dashboard) | resource |
-| [grafana_folder.env_folder](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/folder) | resource |
+| [grafana_folder.folder](https://registry.terraform.io/providers/grafana/grafana/latest/docs/resources/folder) | resource |
 
 ## Inputs
 

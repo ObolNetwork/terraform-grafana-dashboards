@@ -1,3 +1,23 @@
+# Grafana Dashboards
+
+A set of Obol Grafana dashboards for Node Operators and anyone running charon clients
+
+`make` updates the `README.md` file based on Terraform changes.
+
+
+## Usage
+
+```terraform
+module "grafana_dashboards" {
+  source               = "git@github.com:ObolNetwork/terraform-modules.git//grafana-dashboards?ref=vX.x.x"
+  folder_name          = "Dashboard Folder Name"
+  loki_datasource      = "Loki Datasource URL"
+  prometheus_datasource  = "Prometheus Datasource URL"
+  notification_channel = "hf934hfow" 
+}
+```
+
+
 ## Requirements
 
 | Name | Version |

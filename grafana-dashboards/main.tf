@@ -17,7 +17,7 @@ resource "grafana_folder" "folder" {
 
 
 resource "grafana_dashboard" "dashboard" {
-  folder    = grafana_folder.env_folder.id
+  folder    = grafana_folder.folder.id
   for_each  = local.dashboard_set
   overwrite = var.overwrite_dashboard
 
